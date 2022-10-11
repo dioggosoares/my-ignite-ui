@@ -22,7 +22,14 @@ export default {
 
 export const Primary: StoryObj<TextInputProps> = {
   args: {
-    placeholder: 'Type your name',
+    placeholder: 'Type your e-mail',
+  },
+}
+
+export const Invalid: StoryObj<TextInputProps> = {
+  args: {
+    type: 'email',
+    defaultValue: 'dioggosoares@.com',
   },
 }
 

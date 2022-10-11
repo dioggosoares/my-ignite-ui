@@ -15,6 +15,14 @@ export const TextInputContainer = styled('div', {
     borderColor: '$ignite300',
   },
 
+  '&:has(input:invalid)': {
+    borderColor: '$red500',
+  },
+
+  '&:has(input[type=email]:invalid)': {
+    borderColor: '$red500',
+  },
+
   '&:has(input:disabled)': {
     opacity: 0.5,
     cursor: 'not-allowed',
