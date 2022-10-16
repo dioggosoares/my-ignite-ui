@@ -47,11 +47,11 @@ export const Button = styled('button', {
       },
 
       secondary: {
-        color: '$ignite300',
-        border: '2px solid $ignite500',
+        color: '$white',
+        backgroundColor: '$gray200',
 
         '&:not(:disabled):hover': {
-          color: '$white',
+          color: '$gray100',
         },
 
         '&:disabled': {
@@ -65,11 +65,26 @@ export const Button = styled('button', {
         color: '$gray100',
 
         '&:not(:disabled):hover': {
-          color: '$white',
+          color: '$gray400',
         },
 
         '&:disabled': {
           color: '$gray600',
+          opacity: 0.5,
+        },
+      },
+
+      outline: {
+        color: '$ignite300',
+        border: '2px solid $ignite500',
+
+        '&:not(:disabled):hover': {
+          color: '$white',
+        },
+
+        '&:disabled': {
+          color: '$gray200',
+          borderColor: '$gray200',
           opacity: 0.5,
         },
       },

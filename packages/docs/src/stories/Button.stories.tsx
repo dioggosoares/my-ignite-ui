@@ -13,7 +13,7 @@ export default {
   },
   argTypes: {
     variant: {
-      options: ['primary', 'secondary', 'tertiary'],
+      options: ['primary', 'secondary', 'tertiary', 'outline'],
       control: {
         type: 'inline-radio',
       },
@@ -57,6 +57,13 @@ export const Tertiary: StoryObj<ButtonProps> = {
   args: {
     variant: 'tertiary',
     children: 'Cancel',
+  },
+}
+
+export const Outline: StoryObj<ButtonProps> = {
+  args: {
+    variant: 'outline',
+    children: 'Outline',
   },
 }
 
