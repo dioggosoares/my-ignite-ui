@@ -75,6 +75,13 @@ export const WithIcon: StoryObj<ButtonProps> = {
       </>
     ),
   },
+  argTypes: {
+    children: {
+      table: {
+        disable: true,
+      },
+    },
+  },
 }
 
 export const Disabled: StoryObj<ButtonProps> = {
