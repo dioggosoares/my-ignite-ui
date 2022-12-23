@@ -1,5 +1,11 @@
 # @my-ignite-ui/react
 
+## 1.6.1
+
+### Patch Changes
+
+- Add files array for compiling
+
 ## 1.6.0
 
 ### Minor Changes
