@@ -11,6 +11,17 @@ export const TextInputContainer = styled('div', {
   alignItems: 'baseline',
   transition: '0.5s ease-in-out',
 
+  variants: {
+    size: {
+      sm: {
+        padding: '$2 $3',
+      },
+      md: {
+        padding: '$3 $4',
+      },
+    },
+  },
+
   '&:has(input:focus)': {
     borderColor: '$ignite300',
   },
@@ -54,6 +65,6 @@ export const Input = styled('input', {
   },
 
   '&:placeholder': {
-    color: '$gray400',
+    color: '$gray500',
   },
 })

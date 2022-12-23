@@ -1,5 +1,17 @@
 # @my-ignite-ui/react
 
+## 1.6.0
+
+### Minor Changes
+
+- Export all into styles folder on package react
+
+## 1.5.0
+
+### Minor Changes
+
+- Add refs for using Input component with react hook form lib
+
 ## 1.4.0
 
 ### Minor Changes
