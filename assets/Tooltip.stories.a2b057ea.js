@@ -1,0 +1,2 @@
+import{e as t,B as r}from"./index.72a64811.js";import{j as e}from"./jsx-runtime.36ca6a26.js";import"./index.7e3811f9.js";import"./iframe.7694ba67.js";import"./index.f89f611c.js";const n={title:"Overlay/Tooltip",component:t,args:{},argTypes:{open:{control:{type:null}}},decorators:[o=>e(r,{css:{display:"flex",flexDirection:"row",padding:"$12"},children:o()})]},c={},m=["Default"];export{c as Default,m as __namedExportsOrder,n as default};
+//# sourceMappingURL=Tooltip.stories.a2b057ea.js.map
