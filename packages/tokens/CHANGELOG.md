@@ -1,5 +1,11 @@
 # @my-ignite-ui/tokens
 
+## 1.3.0
+
+### Minor Changes
+
+- Fix key name includes for include and filter on package.json
+
 ## 1.2.0
 
 ### Minor Changes
